@@ -68,17 +68,6 @@ A large text file is split into chunks, and each chunk is processed independentl
 
 ---
 
-## 💸 Cost Summary
-
-- **Total AWS cost**: ~$9.30  
-- EC2: $5.01 (most expensive)  
-- S3: $2.83  
-- SQS: $0.15 (minimal, mostly free-tier)
-
-> Biggest spike: $3.61 on one day due to repeated S3 downloads during debugging.
-
----
-
 ## 🧪 Validation
 
 All output word counts matched the expected baseline: **48,325,050 words**  
